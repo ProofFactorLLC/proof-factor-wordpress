@@ -101,10 +101,11 @@ class Proof_Factor_Public {
 	}
 	
 	public function embed_proof() {
-		$remote_html_key = "{$this->plugin_name}_remote_plugin_html";
+        $options = get_option($this->plugin_name);
+        $proof_account_id = $options['account_id'] ? $options['account_id'] : 'blank';
+		$remote_html_key = "{$this->plugin_name}_remote_plugin_html_{$proof_account_id}";
 		if ( false === ( $html = get_transient( $remote_html_key ) ) ) {
-			$options = get_option($this->plugin_name);
-			$response = wp_remote_get( "https://api.prooffactor.com/v1/partners/woo_commerce/embed?account_id={$options['account_id']}");
+			$response = wp_remote_get( "https://api.prooffactor.com/v1/partners/woo_commerce/embed?account_id={$proof_account_id}");
 			if ( is_wp_error( $response ) ) {
 				return;
 			}
