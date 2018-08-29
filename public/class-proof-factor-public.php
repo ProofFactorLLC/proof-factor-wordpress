@@ -118,7 +118,7 @@ class Proof_Factor_Public
             if (is_wp_error($data)) {
                 return;
             }
-            set_transient($remote_html_key, $data, 24 * HOUR_IN_SECONDS);
+            set_transient($remote_html_key, $data, 1 * HOUR_IN_SECONDS);
         }
         echo $html;
     }
