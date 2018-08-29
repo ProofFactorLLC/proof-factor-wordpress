@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Proof Factor for WooCommerce  ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://prooffactor.com
 Tags: comments, spam
@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Proof Factor new order notifications can increase your leads and sales by 10% in less than 10 minutes!
 
 == Description ==
 
