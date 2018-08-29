@@ -29,3 +29,7 @@
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;
 }
+
+$plugin_name = 'proof-factor';
+delete_option( $plugin_name );
+

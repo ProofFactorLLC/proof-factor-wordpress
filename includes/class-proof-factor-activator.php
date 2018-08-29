@@ -30,15 +30,18 @@ class Proof_Factor_Activator {
 	 * @since    1.0.0
 	 */
 	public static function activate() {
-		$payload = [
-		          'url' => home_url(),
-		          'email' => get_option('admin_email'),
-		          'store_name' => get_option('blogname')
-		      ];
-		$new_user = Proof_Factor_Activator::remote_json_post("https://api.prooffactor.com/v1/partners/woo_commerce/connect", $payload);
-		if (!isset($new_user["error"])) {
-			update_option($this->plugin_name, array( "account_id" => $new_user['account_id'], "user_id" => $new_user['user_id'] ));
-		}
+	    $plugin_name = 'proof-factor';
+	    if (get_option($plugin_name) == false) {
+            $payload = [
+                'url' => home_url(),
+                'email' => get_option('admin_email'),
+                'store_name' => get_option('blogname')
+            ];
+            $new_user = Proof_Factor_Activator::remote_json_post("https://api.prooffactor.com/v1/partners/woo_commerce/connect", $payload);
+            if (!isset($new_user["error"])) {
+                update_option($plugin_name, array( "account_id" => $new_user['account_id'], "user_id" => $new_user['user_id'] ));
+            }
+        }
 	}
 
 	public static function remote_json_post($url, $params) {

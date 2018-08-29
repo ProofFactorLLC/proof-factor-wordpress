@@ -65,7 +65,7 @@ if ($proof_user_id) {
 	  <?php
 		  if ($should_show_link) {
 		   ?>
-		  <p>You can find your Account Id and User Id from the bottom of the Proof Factor Settings Page: <a href="https://app.prooffactor.com/settings">https://app.prooffactor.com/settings</a></p>
+              <p>&#9432; You can find your <b>Account Id</b> and <b>User Id</b> from the Account Details section of the Proof Factor Settings Page: <a href="https://app.prooffactor.com/settings">https://app.prooffactor.com/settings</a></p>
 		  <?php
 		  } 
 	?>
