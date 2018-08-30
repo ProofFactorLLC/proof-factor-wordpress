@@ -55,7 +55,7 @@ For additional help please visit our help page at http://help.prooffactor.com/ar
 
 *Link Proof Factor to WooCommerce*
 
-1. While still in the Proof Factor settings page, click the `Link WooCommerce` button.
+1. While still in the Proof Factor settings page on your wordpress dashboard, click the `Link WooCommerce` button.
 2. This will allow Proof Factor to create a webhook for you in your WooCommerce store to automatically track when new orders are placed.
 3. You are now ready to go! You can configure your notifications further by editing the WooCommerce campaign in your Proof Factor dashboard at https://app.prooffactor.com/campaigns
 
