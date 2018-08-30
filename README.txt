@@ -39,6 +39,7 @@ For additional help please visit our help page at http://help.prooffactor.com/ar
 ***How To Install:***
 
 *Install and Activate the Plugin*
+
 1. Install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. At this point, if you do not already have a Proof Factor account one will be created for you with your Wordpress admin email as the username!
@@ -53,6 +54,7 @@ For additional help please visit our help page at http://help.prooffactor.com/ar
 5. Once you have entered your Proof Factor Account Credentials click Update Proof Factor Credentials
 
 *Link Proof Factor to WooCommerce*
+
 1. While still in the Proof Factor settings page, click the `Link WooCommerce` button.
 2. This will allow Proof Factor to create a webhook for you in your WooCommerce store to automatically track when new orders are placed.
 3. You are now ready to go! You can configure your notifications further by editing the WooCommerce campaign in your Proof Factor dashboard at https://app.prooffactor.com/campaigns
