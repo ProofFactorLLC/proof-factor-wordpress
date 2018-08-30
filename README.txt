@@ -3,112 +3,77 @@ Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://prooffactor.com
 Tags: comments, spam
 Requires at least: 3.0.1
-Tested up to: 3.4
+Tested up to: 4.9.8
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Proof Factor new order notifications can increase your leads and sales by 10% in less than 10 minutes!
+Proof Factor displays recent orders and purchases on your WooCommerce storefront!
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+Proof Factor displays recent orders and purchases on your WooCommerce storefront!
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Who trusts an empty restaurant?
+Same goes for your online business.
+Proof Factor turns your website into a busy and interesting place that compels buyer action.
 
-A few notes about the sections above:
 
-*   "Contributors" is a comma separated list of wp.org/wp-plugins.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
+Using Proof Factor can increase your leads and sales by 10% in less than 10 minutes!. Here's why:
 
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
-
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
+* Highly customizable: Store owners can position Proof Factor in any corner (bottom left, bottom right, top left, top right) - whatever works best for your store!
+* FAST. Proof Factor is lightweight and built to scale, so it won't slow down your site (which can hurt your Google rankings)
+* Works on mobile! Choose how your notifications are displayed on mobile, or turn them off for mobile devices
+* Hide Proof Factor from specific pages
+* New store? No worries - you can loop notifications!
+* Customize the message, style, position and timing to suit your branding.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+Proof Factor installation is simple, and requires no programming or special skills. Note: the Proof Factor plugin will only work if the
+WooCommerce plugin is already installed on your shop.
 
-e.g.
+The Proof Factor plugin requires a Proof Factor account to function. One will be created for you once you activate the plugin using your Wordpress admin email.
 
-1. Upload `proof-factor.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+For additional help please visit our help page at http://help.prooffactor.com/article/integrating-with-woocommerce/
+
+***Installation procedure:***
+
+*Install and Activate the Plugin*
+1. Install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress.
+3. At this point, if you do not already have a Proof Factor account one will be created for you with your Wordpress admin email as the username!
+4. Once the plugin is active you should receive a welcome email as well as a password reset email. Make sure to follow the instructions in the password reset email to access your Proof Factor dashboard.
+
+*Configure the plugin*
+
+1. Navigate to the Plugins -> Installed Plugins page
+2. Scroll down until you find Proof Factor and then click Settings
+3. If the Account Id and User Id are already filled in that is because a new account has been created for you using the Wordpress admin email as explained above.
+4. If the Account Id and User Id are blank this is because we could not automatically create a new account for you, or you already have an account. You will need to update these details with the information found at the bottom of https://app.prooffactor.com/settings
+5. Once you have entered your Proof Factor Account Credentials click Update Proof Factor Credentials
+
+*Link Proof Factor to WooCommerce*
+1. While still in the Proof Factor settings page, click the `Link WooCommerce` button.
+2. This will allow Proof Factor to create a webhook for you in your WooCommerce store to automatically track when new orders are placed.
+3. You are now ready to go! You can configure your notifications further by editing the WooCommerce campaign in your Proof Factor dashboard at https://app.prooffactor.com/campaigns
+
+Notes:
+
+* The Proof Factor plugin calls Proof Factor backend servers in order to create a new user account for you using your Wordpress admin email address.
+
+* The Proof Factor plugin will create a WooCommerce webhook once you click the `Link WooCommerce` button in order to notify the Proof Factor backend of new orders happening on the WooCommerce store.
+
+* The Proof Factor plugin will load remote JavaScript/CSS/HTML code from the  Proof Factor backend URL in order to show notifications of recent purchases on your frontend store and to always deliver the latest version of the Proof Factor plugin.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+1. How much does the ProofFactor service cost?
 
-An answer to that question.
+    ProofFactor is free for sites with less than 1,000 unique visits. For additional pricing please visit https://prooffactor.com/#pricing
 
-= What about foo bar? =
-
-Answer to foo bar dilemma.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
-
-== Changelog ==
-
-= 1.0 =
-* A change since the previous version.
-* Another change.
-
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
-
-== Upgrade Notice ==
-
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
-
-== A brief Markdown Example ==
-
-Ordered list:
-
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: http://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+1. The default settings page for new plugin installs.
+2. Example how Proof Factor notification looks on storefront.
