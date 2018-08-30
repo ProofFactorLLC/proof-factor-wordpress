@@ -14,7 +14,6 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Proof Factor - Social Proof Notifications for WooCommerce
- * Plugin URI:        https://prooffactor.com
  * Description:       Proof Factor displays recent orders and purchases on your WooCommerce storefront!
  * Version:           1.0.0
  * Author:            Proof Factor LLC
