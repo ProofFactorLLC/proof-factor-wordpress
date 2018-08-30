@@ -51,7 +51,7 @@ if ($proof_user_id) {
             Proof Account Credentials Invalid. Please Re-Enter!
         </div>
     <?php } else { ?>
-        <p>&#9432; A Proof Factor account was created with the email <b> <?= get_option('admin_email') ?> </b>> when you
+        <p>&#9432; A Proof Factor account was created with the email <b> <?= get_option('admin_email') ?> </b> when you
             activated this plugin. Please check your email for a password reset link to set a new password and login to
             your Proof Factor dashboard.</p>
     <?php } ?>
