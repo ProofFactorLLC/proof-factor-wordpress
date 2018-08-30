@@ -1,6 +1,7 @@
-=== Proof Factor - Social Proof Notifications for WooCommerce  ===
+=== Proof Factor - Social Proof Notifications for WooCommerce ===
 Contributors: prooffactor
 Tags: notifier,fomo,notifications,orders,social proof,woocommerce
+Requires PHP: 5.3
 Requires at least: 3.0.1
 Tested up to: 4.9.8
 Stable tag: 1.0.0
