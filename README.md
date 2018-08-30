@@ -1,15 +1,3 @@
-=== Proof Factor for WooCommerce  ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: https://prooffactor.com
-Tags: comments, spam
-Requires at least: 3.0.1
-Tested up to: 4.9.8
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Proof Factor displays recent orders and purchases on your WooCommerce storefront!
-
 == Description ==
 
 Proof Factor displays recent orders and purchases on your WooCommerce storefront!
@@ -37,7 +25,7 @@ The Proof Factor plugin requires a Proof Factor account to function. One will be
 
 For additional help please visit our help page at http://help.prooffactor.com/article/integrating-with-woocommerce/
 
-***Installation procedure:***
+***How To Install:***
 
 *Install and Activate the Plugin*
 1. Install the plugin through the WordPress plugins screen directly.
@@ -75,5 +63,7 @@ Notes:
 
 == Screenshots ==
 
-1. The default settings page for new plugin installs.
-2. Example how Proof Factor notification looks on storefront.
+1. Configuration options for recent activity notifications.
+2. Example of Proof Factor campaign customization options.
+3. Example of Proof Factor display customization options.
+4. The default settings page for new plugin installs.

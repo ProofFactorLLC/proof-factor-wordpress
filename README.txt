@@ -37,7 +37,7 @@ The Proof Factor plugin requires a Proof Factor account to function. One will be
 
 For additional help please visit our help page at http://help.prooffactor.com/article/integrating-with-woocommerce/
 
-***Installation procedure:***
+***How To Install:***
 
 *Install and Activate the Plugin*
 1. Install the plugin through the WordPress plugins screen directly.
@@ -75,5 +75,7 @@ Notes:
 
 == Screenshots ==
 
-1. The default settings page for new plugin installs.
-2. Example how Proof Factor notification looks on storefront.
+1. Configuration options for recent activity notifications.
+2. Example of Proof Factor campaign customization options.
+3. Example of Proof Factor display customization options.
+4. The default settings page for new plugin installs.
