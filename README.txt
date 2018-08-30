@@ -1,7 +1,6 @@
-=== Proof Factor for WooCommerce  ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: https://prooffactor.com
-Tags: comments, spam
+=== Proof Factor - Social Proof Notifications for WooCommerce  ===
+Contributors: prooffactor
+Tags: notifier,fomo,notifications,orders,social proof,woocommerce
 Requires at least: 3.0.1
 Tested up to: 4.9.8
 Stable tag: 1.0.0
