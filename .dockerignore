@@ -1,0 +1,13 @@
+.ufo
+tmp
+public/assets
+log
+test
+spec
+.env
+.env.dev
+.env.example
+.git
+public/*
+*/*/.git
+*/.git
